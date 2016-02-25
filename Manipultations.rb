@@ -60,3 +60,13 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 # Valider la modif du readme
 $ git commit -am "Improve the README"
 
+# Créer un dépôt sur Bitbucket ou Github 
+# Puis pousser le projet dedans
+$ git remote add origin git@bitbucket.org:<username>/sample_app.git
+$ git push -u origin --all 
+
+# Si vous ne voulez pas être obligé dinstaller une clé SSH faites ceci
+# Le système vous demandera un login et password
+$ git remote add origin https://bitbucket.org:<username>/sample_app.git
+$ git push -u origin --all # pushes up the repo and its refs for the first time
+
