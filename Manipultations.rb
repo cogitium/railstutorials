@@ -42,4 +42,21 @@ end
 $ bundle install --without production
 $ bundle update
 
+# Initialiser le dépôt
+$ git init
+$ git add -A
+$ git commit -m "Initialize repository"
+
+# Renommer le readme.rdoc en .md
+$ git mv README.rdoc README.md
+
+# Compléter le readme
+# Ruby on Rails Tutorial: sample application
+This is the sample application for the
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
+
+# Valider la modif du readme
+$ git commit -am "Improve the README"
 
