@@ -1,7 +1,7 @@
 # Manipulations du livre Railstutorials
 # A partir du chapitre 3
 
-# 3.1
+# 3.1 Sample app setup
 
 # Après s'être positionné dans la zone de travail
 # Il fautcréer une nouvelle application
@@ -69,4 +69,33 @@ $ git push -u origin --all
 # Le système vous demandera un login et password
 $ git remote add origin https://bitbucket.org:<username>/sample_app.git
 $ git push -u origin --all # pushes up the repo and its refs for the first time
+
+# Faites tout de suite une mise en production pour valider la chaine de développement
+$ git commit -am "Add hello"
+$ heroku create
+$ git push heroku master
+
+# Pour l'instant, il n'y a rien dans l'application
+
+# 3.2 Static pages
+
+# Créer une nouvelle branche pour travailler
+$ git checkout master
+$ git checkout -b static-pages
+
+# 3.2.1 Generated static pages
+$ rails generate controller StaticPages home help
+
+# A ce moment là il y a plein derreur dans la console sur Windows tout au moins
+# Il faut changer des ligne dans le Gemfile
+  gem 'sqlite3',     '1.3.9'  -->>  gem 'sqlite3', '>= 1.3.9'
+  gem 'web-console', '2.0.0.beta3'  -->>  gem 'web-console', '~> 2.0'
+# Et ajouter
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Faire bundle update puis le generate doit fonctionner
+
+# Lancer le serveur local et tester les 2 pages statiques
+# http://localhost:3000/static_pages/home
+# http://localhost:3000/static_pages/help
 
