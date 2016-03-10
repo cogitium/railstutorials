@@ -20,6 +20,10 @@ gem 'bcrypt', '~> 3.1.11', require: false
 #  gem 'bcrypt', '~> 3.1.10', require: false
 #end
 
+gem 'faker',                '1.4.2'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 group :development, :test do
 #  gem 'sqlite3',     '1.3.9'
   gem 'sqlite3',     '>= 1.3.9'
