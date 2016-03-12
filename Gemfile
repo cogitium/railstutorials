@@ -10,17 +10,13 @@ gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
 
 gem 'bootstrap-sass','3.2.0.0'
-
 # gem 'bcrypt',        '~>3.1.7'
 gem 'bcrypt', '~> 3.1.11', require: false
-
-#if Bundler::WINDOWS
-#  gem 'bcrypt-ruby', '~> 3.0.0', require: false
-#else
-#  gem 'bcrypt', '~> 3.1.10', require: false
-#end
-
 gem 'faker',                '1.4.2'
+gem 'carrierwave',             '0.10.0'
+gem 'rmagick'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.36.0'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
