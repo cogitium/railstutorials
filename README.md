@@ -4,10 +4,25 @@ This is the sample application for the
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-### Hébergé sur Heroku ###
+## Manipulations du livre Railstutorials par Michel Hartl
+https://www.railstutorial.org/book  
+A partir du chapitre 3
 
-* [Lien vers le site](https://ancient-bastion-62755.herokuapp.com/)
+## Manipulations réalisées et documentées par
+Philippe GIRAUD (phgiraud@cogitium.com)
 
-### Dépôt sur Heroku ###
+## Cette manipulation est faite sur :
+Ordinateur portable ASUS EeePC 1215B avec 4 Go de Ram  
+Windows 7 Edition familiale Premium 64 bits  
+Ruby 2.2.3p173 (2015-08-18 revision 51636) [x64-mingw32]  
+Rails 4.2.2
 
-* https://git.heroku.com/ancient-bastion-62755.git
+## Remarque :
+La seule manipulation non réalisée par choix est l'utilisation du Cloud Amazon S3
+pour stocker les images uploadées au chapitre 11  
+Le système fonctionne parfaitement mais les images stockées en local
+disparaissent régulièrement lors de la mise en veille du serveur  
+Ne soyez donc pas surpris
+
+## Fichier complet des manipulations réalisées (8000 lignes) : 
+Manipulations.rb
