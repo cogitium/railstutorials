@@ -11,6 +11,12 @@ A partir du chapitre 3
 ## Manipulations réalisées et documentées par
 Philippe GIRAUD (phgiraud@cogitium.com)
 
+## Hébergé sur Heroku
+* [Lien vers le site](https://ancient-bastion-62755.herokuapp.com/)
+
+## Dépôt sur Heroku
+* https://git.heroku.com/ancient-bastion-62755.git
+
 ## Cette manipulation est faite sur :
 Ordinateur portable ASUS EeePC 1215B avec 4 Go de Ram  
 Windows 7 Edition familiale Premium 64 bits  
