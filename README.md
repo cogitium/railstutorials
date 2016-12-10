@@ -12,10 +12,10 @@ A partir du chapitre 3
 Philippe GIRAUD (phgiraud@cogitium.com)
 
 ## Hébergé sur Heroku
-* [Lien vers le site](https://ancient-bastion-62755.herokuapp.com/)
+* [Lien vers le site](https://railstutorials-phg.herokuapp.com/)
 
 ## Dépôt sur Heroku
-* https://git.heroku.com/ancient-bastion-62755.git
+* https://git.heroku.com/railstutorials-phg.git
 
 ## Cette manipulation est faite sur :
 Ordinateur portable ASUS EeePC 1215B avec 4 Go de Ram  
